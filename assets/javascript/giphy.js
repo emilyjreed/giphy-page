@@ -25,7 +25,6 @@ function displayGiphyImages() {
                 showData.append(showImage, p);
                 $("#main-content").append(showData);
             }
-
         });
 };
 
