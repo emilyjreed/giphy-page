@@ -45,5 +45,10 @@ body {
 
 #main-content {
     font-weight: bold;
-    float: left;
+    text-align: center;
+}
+
+figure {
+    margin-right: 5px;
+    left: 0;
 }
