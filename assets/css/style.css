@@ -51,3 +51,7 @@ body {
 figure {
     margin-right: 5px;
 }
+
+.show:hover {
+    cursor: pointer;
+}

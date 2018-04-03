@@ -10,7 +10,7 @@ function displayGiphyImages() {
         method: "GET"
     })
         .done(function (response) {
-            $(".show").empty();
+            $(".show").remove();
             var results = response.data;
 
             for (var i = 0; i < results.length; i++) {
